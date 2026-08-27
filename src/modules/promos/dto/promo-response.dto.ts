@@ -13,6 +13,7 @@ export interface PromoData {
 export interface PromoResponse {
   status: 'success' | 'error';
   device_id: string;
+  device_name?: string;
   timestamp: string;
   data: PromoData;
 }
